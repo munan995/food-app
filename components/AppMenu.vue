@@ -1,27 +1,20 @@
 <template>
-    <nav>
-        <ul>
-            <li >
-                <nuxt-link exac to="/">Home</nuxt-link>
-            </li>
-            <li >
-                <nuxt-link exac to="/about">About</nuxt-link>
-            </li>
-            <li > {{msg}} </li>
-        </ul>
-    </nav>
-
+  <nav>
+    <ul>
+      <li>
+        <nuxt-link exac to="/">Home</nuxt-link>
+      </li>
+      <li><nuxt-link exac to="/restaurant">Restaurant</nuxt-link></li>
+    </ul>
+  </nav>
 </template>
 
 <script>
-    export default {
-        name:"hello",
-        props:{
-            msg:String
-        }
-    }
+export default {};
 </script>
 
 <style lang="scss" scoped>
-
+li {
+  font-size: 25px;
+}
 </style>
